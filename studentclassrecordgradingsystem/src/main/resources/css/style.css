@@ -1,0 +1,200 @@
+/* Global Styles */
+.root {
+    -fx-font-family: 'Segoe UI', Arial, sans-serif;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    -fx-font-size: 14px;
+    font-size: 14px;
+    -fx-background-color: #f5f5f5;
+    background-color: #f5f5f5;
+}
+
+.background {
+    -fx-background-color: linear-gradient(to bottom right, #1a2980, #26d0ce);
+    background-color: linear-gradient(to bottom right, #1a2980, #26d0ce);
+}
+
+/* Login Screen */
+.login-panel {
+    -fx-background-color: white;
+    background-color: white;
+    -fx-background-radius: 10px;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.2), 10, 0, 0, 10);
+    -fx-padding: 20px;
+    padding: 20px;
+}
+
+.title-label {
+    -fx-font-size: 18px;
+    font-size: 18px;
+    -fx-font-weight: bold;
+    font-weight: bold;
+    -fx-text-fill: #333333;
+}
+
+.header-label {
+    -fx-font-size: 24px;
+    font-size: 24px;
+    -fx-font-weight: bold;
+    font-weight: bold;
+    -fx-text-fill: #1a2980;
+}
+
+.text-field, .password-field {
+    -fx-background-color: #f0f0f0;
+    background-color: #f0f0f0;
+    -fx-background-radius: 5px;
+    border-radius: 5px;
+    -fx-padding: 10px;
+    padding: 10px;
+    -fx-font-size: 14px;
+    font-size: 14px;
+}
+
+.text-field:focused, .password-field:focused {
+    -fx-background-color: #ffffff;
+    background-color: #ffffff;
+    -fx-border-color: #1a2980;
+    border-color: #1a2980;
+    -fx-border-width: 2px;
+    border-width: 2px;
+}
+
+/* Buttons */
+.primary-button {
+    -fx-background-color: #1a2980;
+    background-color: #1a2980;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    font-weight: bold;
+    -fx-padding: 10px 20px;
+    padding: 10px 20px;
+    -fx-background-radius: 5px;
+    -fx-cursor: hand;
+    cursor: pointer;
+}
+
+.primary-button:hover {
+    -fx-background-color: #26d0ce;
+    background-color: #26d0ce;
+}
+
+.secondary-button {
+    -fx-background-color: #e0e0e0;
+    background-color: #e0e0e0;
+    -fx-text-fill: #333333;
+    -fx-padding: 8px 15px;
+    padding: 8px 15px;
+    -fx-background-radius: 5px;
+    -fx-cursor: hand;
+    cursor: pointer;
+}
+
+.secondary-button:hover {
+    -fx-background-color: #cccccc;
+    background-color: #cccccc;
+}
+
+/* Dashboard */
+.sidebar {
+    -fx-background-color: #1a2980;
+    background-color: #1a2980;
+    -fx-padding: 20px 10px;
+    padding: 20px 10px;
+}
+
+.sidebar-button {
+    -fx-background-color: transparent;
+    background-color: transparent;
+    -fx-text-fill: white;
+    -fx-alignment: center-left;
+    -fx-padding: 10px 15px;
+    padding: 10px 15px;
+    -fx-background-radius: 5px;
+    -fx-cursor: hand;
+    cursor: pointer;
+}
+
+.sidebar-button:hover {
+    -fx-background-color: rgba(255, 255, 255, 0.2);
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.sidebar-button.active {
+    -fx-background-color: #26d0ce;
+    background-color: #26d0ce;
+}
+
+.content-area {
+    -fx-background-color: white;
+    background-color: white;
+    -fx-background-radius: 10px;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.1), 5, 0, 0, 5);
+    -fx-padding: 20px;
+    padding: 20px;
+}
+
+/* Table styles */
+.table-view {
+    -fx-background-color: transparent;
+    background-color: transparent;
+    -fx-border-color: #e0e0e0;
+    border-color: #e0e0e0;
+    -fx-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.table-view .column-header {
+    -fx-background-color: #1a2980;
+    background-color: #1a2980;
+}
+
+.table-view .column-header .label {
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    font-weight: bold;
+}
+
+.table-row-cell:odd {
+    -fx-background-color: #f9f9f9;
+    background-color: #f9f9f9;
+}
+
+.table-row-cell:selected {
+    -fx-background-color: #b3e5fc;
+    background-color: #b3e5fc;
+}
+
+/* Cards and info panels */
+.card {
+    -fx-background-color: white;
+    background-color: white;
+    -fx-background-radius: 10px;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.1), 5, 0, 0, 5);
+    -fx-padding: 15px;
+    padding: 15px;
+}
+
+.card-title {
+    -fx-font-size: 16px;
+    font-size: 16px;
+    -fx-font-weight: bold;
+    font-weight: bold;
+}
+
+.card-value {
+    -fx-font-size: 24px;
+    font-size: 24px;
+    -fx-font-weight: bold;
+    font-weight: bold;
+}
+
+/* Utility classes */
+.padding-10 {
+    -fx-padding: 10px;
+    padding: 10px;
+}
+
+.margin-10 {
+    -fx-margin: 10px;
+    margin: 10px;
+}
